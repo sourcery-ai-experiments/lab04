@@ -10,9 +10,9 @@ def main():
 def about():
     return render_template('about.html')
 
-@app.route("/tushar_new.html")
-def tushar_new():
-    return render_template('tushar_new.html')
+@app.route("/Neil_new.html")
+def Neil_new():
+    return render_template('Neil_new.html')
 
 @app.route("/surya_new.html")
 def surya_new():
